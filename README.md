@@ -36,3 +36,6 @@ public class Child extends Parent {
 
 ### Object 다형성
 - Object는 모두 클래스 객체에 부모이기 때문에 다 담을수 있다.
+
+### Object 배열
+- Object 배열은 모든 객체를 담은 수있다.
