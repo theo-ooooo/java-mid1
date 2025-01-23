@@ -32,6 +32,7 @@ public class Child extends Parent {
         System.out.println("Child.childMethod");
     }
 }
-
-
 ```
+
+### Object 다형성
+- Object는 모두 클래스 객체에 부모이기 때문에 다 담을수 있다.
