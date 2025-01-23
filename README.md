@@ -39,3 +39,16 @@ public class Child extends Parent {
 
 ### Object 배열
 - Object 배열은 모든 객체를 담은 수있다.
+
+### toString()
+- `Object` 가 제공하는 toString() 메서드는
+```java
+public String toString() {
+    return getClass().getName() + "@" + Integer.toHexString(hashCode());
+}
+```
+- println 과 toString() 이 같은 이유는 println() 실행시 toString() 을 호출한다.
+
+
+### toString() 오버라이딩
+- 오버라이딩 하니 오버라이딩한 메소드가 실행.
