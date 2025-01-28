@@ -67,3 +67,10 @@ public String toString() {
         return (this == obj);
     }
 ```
+
+- equals 메소드를 구현할떄 지켜야 하는 규칙
+  1. 반사성
+  2. 대칭성
+  3. 추이성
+  4. 일관성
+  5. null의 대한 비교
