@@ -52,3 +52,18 @@ public String toString() {
 
 ### toString() 오버라이딩
 - 오버라이딩 하니 오버라이딩한 메소드가 실행.
+
+
+### equals()
+- 동일성 (Identity) == 연산자를 사용하여 두객체에 메모리까지 같은지 확인
+- 동등성 (Equality) equals() 메소드를 사용하여 두객체가 논리적으로 동등한지 확인
+
+- user1 == user2 false
+- user1.equals(user2) false
+- 아래를 보면 똑같다.
+
+```java
+    public boolean equals(Object obj) {
+        return (this == obj);
+    }
+```
