@@ -94,3 +94,17 @@ public String toString() {
 ```
 
 - String은 불변객체이다.
+
+### 래퍼클래스 - 자바 래퍼 클래스
+- byte -> Byte
+- short -> Short
+- int -> Integer
+- long -> Long
+- float -> Float
+- double -> Double
+- char -> Character
+- boolean -> Boolean
+
+- 불변이고, 객체이기 때문에 equals로 비교해야한다.
+- 기본형을 래퍼 클래스로 변경하는것을 박싱(Boxing) 이라 한다.
+- 래퍼클래스에서 기본형을 꺼내는 것은 언박싱(Unboxing) 이라한다. (ex: intValue())
