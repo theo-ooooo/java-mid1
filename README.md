@@ -79,3 +79,18 @@ public String toString() {
 ### 기본형과 참조형의 공유
 - 가본형은 절대로 값은 값을 공유하지 않는다.
 - 참조형 변수는 하나의 인스턴스를 공유할 수 있다.
+
+### String
+
+```java
+    String str = "hello"; // 아래로 자바에서 변경해준다.
+    String str = new String("hello");
+```
+
+- 자바에서 문자열을 더할때 String 이 제공하는 concat() 을 사용해야하지만 특별히 + 연산도 된다.
+```java
+        String result1 = a.concat(b);
+        String result2 = a + b;
+```
+
+- String은 불변객체이다.
