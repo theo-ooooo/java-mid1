@@ -92,3 +92,5 @@ public String toString() {
         String result1 = a.concat(b);
         String result2 = a + b;
 ```
+
+- String은 불변객체이다.
