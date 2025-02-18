@@ -1,5 +1,6 @@
 package lang.math.test;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class LottoGenerator {
@@ -10,6 +11,7 @@ public class LottoGenerator {
     public int[] generate() {
         lottoNumbers = new int[6];
         count = 0;
+
 
         while (count < 6) {
             // 1부터 45번째까지 뽑아야함
@@ -24,8 +26,8 @@ public class LottoGenerator {
     }
 
     public boolean isUnique(int number) {
-        for (int lottoNumber : lottoNumbers) {
-            if (number == lottoNumber) {
+        for (int i = 0; i < count; i++) {
+            if (number == lottoNumbers[i]) {
                 return false;
             }
         }
