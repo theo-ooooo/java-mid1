@@ -1,4 +1,4 @@
-package nested.anonymous.ex0;
+package nested.anonymous.ex;
 
 public class Ex0RefMain {
     public static void hello(String str) {
